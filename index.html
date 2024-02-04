@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            color:white;
+            font-family:sans-serif;
+         }
+         .main-wrapper{
+            background:linear-gradient(rgb(57, 49, 57),pink);
+         } 
+         input[type='text']{
+            color:black;
+         }
+         .btn{
+            width:5rem;
+            height:20px;
+            color:red;
+         }
+        
+
+    </style>
+</head>
+<body>
+   <div class="main-wrapper" style="  width:100vw; height:100vh">
+
+    <div class="heading">
+        <h1>Guess the number</h1>
+        <h3>enter any number between 1 and 100</h3>
+    </div>
+      <form action="
+      " id="form">
+      <input type="text" id="number">
+      <input type="submit" id="sub">
+    </form>
+    <div class="message">
+        <h3>previous responses <span class="pre-res"></span></h3>
+         <p id="attemp">attempt reamaning: <span class="attempt-re"></span></p>
+         <p class="hint"></p>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
